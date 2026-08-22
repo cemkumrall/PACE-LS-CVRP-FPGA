@@ -1,0 +1,3050 @@
+{
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n32-k5_WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n32-k5",
+    "algorithm": "WOA",
+    "best_cost_without_vehicle_penalty": 1054.0,
+    "known_best": 784.0,
+    "gap_percent": 34.43877551020408,
+    "route_count": 5,
+    "routes": [
+      [
+        2,
+        20,
+        22,
+        18,
+        8
+      ],
+      [
+        25,
+        4,
+        29,
+        12,
+        5,
+        9,
+        19
+      ],
+      [
+        26,
+        6,
+        30,
+        11,
+        16,
+        23,
+        10,
+        7,
+        27
+      ],
+      [
+        17,
+        14,
+        3,
+        24,
+        32,
+        13
+      ],
+      [
+        21,
+        28,
+        15,
+        31
+      ]
+    ],
+    "route_loads": [
+      90,
+      85,
+      97,
+      93,
+      45
+    ],
+    "route_distances": [
+      177.0,
+      238.0,
+      295.0,
+      232.0,
+      112.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n32-k5_SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n32-k5",
+    "algorithm": "SSA",
+    "best_cost_without_vehicle_penalty": 1398.0,
+    "known_best": 784.0,
+    "gap_percent": 78.31632653061224,
+    "route_count": 5,
+    "routes": [
+      [
+        2,
+        20,
+        32,
+        13,
+        17
+      ],
+      [
+        25,
+        11,
+        30,
+        21,
+        6,
+        4,
+        18,
+        22
+      ],
+      [
+        14,
+        28,
+        16,
+        19,
+        12,
+        31
+      ],
+      [
+        8,
+        27,
+        15,
+        7,
+        9,
+        29,
+        24,
+        3
+      ],
+      [
+        26,
+        23,
+        10,
+        5
+      ]
+    ],
+    "route_loads": [
+      91,
+      86,
+      87,
+      83,
+      63
+    ],
+    "route_distances": [
+      164.0,
+      369.0,
+      333.0,
+      265.0,
+      267.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n32-k5_M-WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n32-k5",
+    "algorithm": "M-WOA",
+    "best_cost_without_vehicle_penalty": 784.0,
+    "known_best": 784.0,
+    "gap_percent": 0.0,
+    "route_count": 5,
+    "routes": [
+      [
+        27,
+        8,
+        14,
+        18,
+        20,
+        32,
+        22
+      ],
+      [
+        30,
+        19,
+        9,
+        10,
+        23,
+        16,
+        11,
+        26,
+        6,
+        21
+      ],
+      [
+        15,
+        29,
+        12,
+        5,
+        24,
+        4,
+        3,
+        7
+      ],
+      [
+        25,
+        28
+      ],
+      [
+        13,
+        2,
+        17,
+        31
+      ]
+    ],
+    "route_loads": [
+      98,
+      98,
+      98,
+      44,
+      72
+    ],
+    "route_distances": [
+      155.0,
+      267.0,
+      230.0,
+      59.0,
+      73.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n32-k5_M-SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n32-k5",
+    "algorithm": "M-SSA",
+    "best_cost_without_vehicle_penalty": 784.0,
+    "known_best": 784.0,
+    "gap_percent": 0.0,
+    "route_count": 5,
+    "routes": [
+      [
+        27,
+        8,
+        14,
+        18,
+        20,
+        32,
+        22
+      ],
+      [
+        15,
+        29,
+        12,
+        5,
+        24,
+        3,
+        4,
+        7
+      ],
+      [
+        21,
+        6,
+        26,
+        11,
+        16,
+        23,
+        10,
+        9,
+        19,
+        30
+      ],
+      [
+        28,
+        25
+      ],
+      [
+        31,
+        17,
+        2,
+        13
+      ]
+    ],
+    "route_loads": [
+      98,
+      98,
+      98,
+      44,
+      72
+    ],
+    "route_distances": [
+      155.0,
+      230.0,
+      267.0,
+      59.0,
+      73.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n37-k6_WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n37-k6",
+    "algorithm": "WOA",
+    "best_cost_without_vehicle_penalty": 1166.0,
+    "known_best": 949.0,
+    "gap_percent": 22.866174920969442,
+    "route_count": 6,
+    "routes": [
+      [
+        17,
+        36,
+        8
+      ],
+      [
+        12,
+        11,
+        22,
+        3,
+        2,
+        9
+      ],
+      [
+        27,
+        10,
+        34,
+        29,
+        24,
+        23,
+        13,
+        31
+      ],
+      [
+        15,
+        7,
+        19,
+        5,
+        4,
+        6,
+        37
+      ],
+      [
+        30,
+        35,
+        21,
+        32,
+        20,
+        18
+      ],
+      [
+        14,
+        16,
+        33,
+        26,
+        28,
+        25
+      ]
+    ],
+    "route_loads": [
+      95,
+      98,
+      99,
+      95,
+      87,
+      96
+    ],
+    "route_distances": [
+      104.0,
+      247.0,
+      276.0,
+      201.0,
+      160.0,
+      178.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n37-k6_SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n37-k6",
+    "algorithm": "SSA",
+    "best_cost_without_vehicle_penalty": 1280.0,
+    "known_best": 949.0,
+    "gap_percent": 34.87881981032666,
+    "route_count": 6,
+    "routes": [
+      [
+        15,
+        8,
+        5,
+        19,
+        32,
+        35,
+        26,
+        17
+      ],
+      [
+        16,
+        18,
+        27,
+        7,
+        30
+      ],
+      [
+        11,
+        33,
+        12,
+        22,
+        3
+      ],
+      [
+        37,
+        9,
+        4,
+        20,
+        14
+      ],
+      [
+        25,
+        28,
+        36
+      ],
+      [
+        21,
+        2,
+        6,
+        34,
+        10,
+        29,
+        24,
+        23,
+        13,
+        31
+      ]
+    ],
+    "route_loads": [
+      99,
+      89,
+      98,
+      100,
+      92,
+      92
+    ],
+    "route_distances": [
+      167.0,
+      241.0,
+      268.0,
+      183.0,
+      128.0,
+      293.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n37-k6_M-WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n37-k6",
+    "algorithm": "M-WOA",
+    "best_cost_without_vehicle_penalty": 955.0,
+    "known_best": 949.0,
+    "gap_percent": 0.6322444678609063,
+    "route_count": 6,
+    "routes": [
+      [
+        20,
+        3,
+        29,
+        24,
+        23,
+        13,
+        12,
+        11,
+        5
+      ],
+      [
+        21,
+        9,
+        6,
+        4,
+        2,
+        35,
+        18,
+        19
+      ],
+      [
+        17,
+        36,
+        26,
+        8
+      ],
+      [
+        15,
+        32,
+        34,
+        10,
+        22,
+        27
+      ],
+      [
+        7,
+        37,
+        30,
+        25
+      ],
+      [
+        14,
+        31,
+        16,
+        33,
+        28
+      ]
+    ],
+    "route_loads": [
+      99,
+      97,
+      99,
+      100,
+      75,
+      100
+    ],
+    "route_distances": [
+      247.0,
+      167.0,
+      104.0,
+      170.0,
+      95.0,
+      172.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n37-k6_M-SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n37-k6",
+    "algorithm": "M-SSA",
+    "best_cost_without_vehicle_penalty": 958.0,
+    "known_best": 949.0,
+    "gap_percent": 0.9483667017913593,
+    "route_count": 6,
+    "routes": [
+      [
+        21,
+        34,
+        3,
+        29,
+        24,
+        23,
+        13,
+        12,
+        11
+      ],
+      [
+        19,
+        22,
+        10,
+        2,
+        4,
+        6,
+        9
+      ],
+      [
+        32,
+        20,
+        35,
+        18,
+        7,
+        15
+      ],
+      [
+        28,
+        33,
+        16,
+        31,
+        27,
+        5
+      ],
+      [
+        8,
+        17,
+        25,
+        30,
+        37
+      ],
+      [
+        14,
+        26,
+        36
+      ]
+    ],
+    "route_loads": [
+      97,
+      97,
+      95,
+      99,
+      86,
+      96
+    ],
+    "route_distances": [
+      254.0,
+      206.0,
+      103.0,
+      190.0,
+      85.0,
+      120.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n45-k6_WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n45-k6",
+    "algorithm": "WOA",
+    "best_cost_without_vehicle_penalty": 1297.0,
+    "known_best": 944.0,
+    "gap_percent": 37.394067796610166,
+    "route_count": 6,
+    "routes": [
+      [
+        10,
+        23,
+        5,
+        4,
+        9,
+        42,
+        34,
+        22,
+        6
+      ],
+      [
+        7,
+        30,
+        29,
+        8,
+        14,
+        33
+      ],
+      [
+        19,
+        18,
+        12,
+        38,
+        25,
+        32
+      ],
+      [
+        2,
+        45,
+        27,
+        43,
+        37,
+        40,
+        13,
+        26,
+        16
+      ],
+      [
+        3,
+        15,
+        44,
+        41,
+        31,
+        20,
+        35,
+        28
+      ],
+      [
+        17,
+        11,
+        21,
+        24,
+        39,
+        36
+      ]
+    ],
+    "route_loads": [
+      100,
+      100,
+      100,
+      99,
+      94,
+      100
+    ],
+    "route_distances": [
+      240.0,
+      140.0,
+      208.0,
+      233.0,
+      236.0,
+      240.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n45-k6_SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n45-k6",
+    "algorithm": "SSA",
+    "best_cost_without_vehicle_penalty": 1650.0,
+    "known_best": 944.0,
+    "gap_percent": 74.78813559322033,
+    "route_count": 6,
+    "routes": [
+      [
+        4,
+        9,
+        34,
+        18,
+        31,
+        20,
+        13,
+        10,
+        43,
+        17
+      ],
+      [
+        23,
+        37,
+        29,
+        5,
+        16
+      ],
+      [
+        26,
+        3,
+        24,
+        14,
+        21,
+        44,
+        7
+      ],
+      [
+        2,
+        45,
+        35,
+        41,
+        28,
+        36
+      ],
+      [
+        30,
+        27,
+        8,
+        33,
+        22,
+        6,
+        42,
+        11,
+        40,
+        39
+      ],
+      [
+        19,
+        12,
+        38,
+        25,
+        32,
+        15
+      ]
+    ],
+    "route_loads": [
+      100,
+      95,
+      99,
+      100,
+      100,
+      99
+    ],
+    "route_distances": [
+      466.0,
+      265.0,
+      218.0,
+      175.0,
+      326.0,
+      200.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n45-k6_M-WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n45-k6",
+    "algorithm": "M-WOA",
+    "best_cost_without_vehicle_penalty": 1006.0,
+    "known_best": 944.0,
+    "gap_percent": 6.567796610169491,
+    "route_count": 6,
+    "routes": [
+      [
+        32,
+        39,
+        3,
+        26,
+        13,
+        40,
+        37,
+        16,
+        24
+      ],
+      [
+        10,
+        23,
+        43,
+        5,
+        17,
+        14,
+        8
+      ],
+      [
+        4,
+        11,
+        9,
+        42,
+        34,
+        22,
+        6,
+        21,
+        33
+      ],
+      [
+        29,
+        18,
+        12,
+        41,
+        31,
+        20,
+        35,
+        45
+      ],
+      [
+        27,
+        30,
+        44,
+        19,
+        28,
+        7
+      ],
+      [
+        15,
+        36,
+        2,
+        25,
+        38
+      ]
+    ],
+    "route_loads": [
+      100,
+      98,
+      98,
+      100,
+      99,
+      98
+    ],
+    "route_distances": [
+      208.0,
+      167.0,
+      204.0,
+      178.0,
+      126.0,
+      123.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n45-k6_M-SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n45-k6",
+    "algorithm": "M-SSA",
+    "best_cost_without_vehicle_penalty": 1142.0,
+    "known_best": 944.0,
+    "gap_percent": 20.97457627118644,
+    "route_count": 6,
+    "routes": [
+      [
+        10,
+        4,
+        11,
+        9,
+        42,
+        34,
+        22,
+        6,
+        21,
+        33
+      ],
+      [
+        16,
+        23,
+        5,
+        40,
+        13,
+        26,
+        39
+      ],
+      [
+        24,
+        37,
+        43,
+        17,
+        14,
+        8,
+        29
+      ],
+      [
+        12,
+        20,
+        31,
+        35,
+        18,
+        19,
+        30,
+        27
+      ],
+      [
+        3,
+        36,
+        38,
+        41,
+        28,
+        44
+      ],
+      [
+        2,
+        45,
+        7,
+        25,
+        32,
+        15
+      ]
+    ],
+    "route_loads": [
+      100,
+      99,
+      100,
+      95,
+      100,
+      99
+    ],
+    "route_distances": [
+      206.0,
+      195.0,
+      190.0,
+      175.0,
+      232.0,
+      144.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n54-k7_WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n54-k7",
+    "algorithm": "WOA",
+    "best_cost_without_vehicle_penalty": 1806.0,
+    "known_best": 1167.0,
+    "gap_percent": 54.75578406169666,
+    "route_count": 7,
+    "routes": [
+      [
+        46,
+        34,
+        23,
+        32,
+        49,
+        15,
+        13,
+        14
+      ],
+      [
+        44,
+        21,
+        24,
+        43,
+        33,
+        16,
+        30,
+        51,
+        53,
+        31
+      ],
+      [
+        12,
+        4,
+        39,
+        10,
+        22,
+        37,
+        6,
+        19
+      ],
+      [
+        27,
+        18,
+        36,
+        11,
+        47,
+        42,
+        7,
+        2
+      ],
+      [
+        5,
+        20,
+        9,
+        29,
+        8,
+        40,
+        50
+      ],
+      [
+        28,
+        3,
+        41,
+        54,
+        45
+      ],
+      [
+        17,
+        38,
+        25,
+        52,
+        48,
+        26,
+        35
+      ]
+    ],
+    "route_loads": [
+      92,
+      96,
+      92,
+      99,
+      100,
+      98,
+      92
+    ],
+    "route_distances": [
+      297.0,
+      255.0,
+      260.0,
+      313.0,
+      249.0,
+      227.0,
+      205.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n54-k7_SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n54-k7",
+    "algorithm": "SSA",
+    "best_cost_without_vehicle_penalty": 2158.0,
+    "known_best": 1167.0,
+    "gap_percent": 84.91859468723221,
+    "route_count": 7,
+    "routes": [
+      [
+        13,
+        33,
+        36,
+        32,
+        14,
+        24,
+        47,
+        42,
+        35,
+        19,
+        40,
+        12,
+        34,
+        27,
+        16,
+        44
+      ],
+      [
+        53,
+        26,
+        15,
+        45,
+        20,
+        28
+      ],
+      [
+        4,
+        49,
+        41,
+        3,
+        43,
+        7
+      ],
+      [
+        51,
+        46,
+        39,
+        22,
+        10,
+        30
+      ],
+      [
+        5,
+        21,
+        18,
+        54,
+        11
+      ],
+      [
+        2,
+        48,
+        52,
+        25,
+        38,
+        9,
+        31
+      ],
+      [
+        29,
+        6,
+        8,
+        50,
+        37,
+        23,
+        17
+      ]
+    ],
+    "route_loads": [
+      100,
+      100,
+      89,
+      99,
+      91,
+      100,
+      90
+    ],
+    "route_distances": [
+      645.0,
+      280.0,
+      275.0,
+      238.0,
+      183.0,
+      319.0,
+      218.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n54-k7_M-WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n54-k7",
+    "algorithm": "M-WOA",
+    "best_cost_without_vehicle_penalty": 1239.0,
+    "known_best": 1167.0,
+    "gap_percent": 6.169665809768637,
+    "route_count": 7,
+    "routes": [
+      [
+        24,
+        21,
+        50,
+        40,
+        51,
+        8,
+        6,
+        19,
+        29,
+        5
+      ],
+      [
+        31,
+        26,
+        48,
+        52,
+        25,
+        43,
+        47,
+        42,
+        35,
+        53
+      ],
+      [
+        15,
+        3,
+        13,
+        9,
+        28,
+        33,
+        44
+      ],
+      [
+        38,
+        49,
+        41,
+        20,
+        32,
+        4,
+        12,
+        14
+      ],
+      [
+        30,
+        37,
+        2,
+        27,
+        18,
+        11,
+        16,
+        36
+      ],
+      [
+        46,
+        22,
+        34,
+        10,
+        39,
+        17
+      ],
+      [
+        7,
+        23,
+        54,
+        45
+      ]
+    ],
+    "route_loads": [
+      93,
+      95,
+      95,
+      96,
+      95,
+      96,
+      99
+    ],
+    "route_distances": [
+      105.0,
+      171.0,
+      186.0,
+      247.0,
+      144.0,
+      199.0,
+      187.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n54-k7_M-SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n54-k7",
+    "algorithm": "M-SSA",
+    "best_cost_without_vehicle_penalty": 1252.0,
+    "known_best": 1167.0,
+    "gap_percent": 7.283633247643531,
+    "route_count": 7,
+    "routes": [
+      [
+        53,
+        47,
+        43,
+        25,
+        52,
+        42,
+        48,
+        26,
+        35,
+        31
+      ],
+      [
+        33,
+        20,
+        41,
+        49,
+        38,
+        13,
+        28
+      ],
+      [
+        11,
+        27,
+        46,
+        22,
+        34,
+        10,
+        39
+      ],
+      [
+        7,
+        14,
+        23,
+        4,
+        45,
+        44
+      ],
+      [
+        21,
+        24,
+        30,
+        18,
+        2,
+        37,
+        51,
+        6,
+        19
+      ],
+      [
+        5,
+        29,
+        8,
+        40,
+        50,
+        16,
+        36,
+        17
+      ],
+      [
+        12,
+        54,
+        32,
+        9,
+        3,
+        15
+      ]
+    ],
+    "route_loads": [
+      95,
+      91,
+      98,
+      100,
+      93,
+      93,
+      99
+    ],
+    "route_distances": [
+      180.0,
+      206.0,
+      200.0,
+      188.0,
+      158.0,
+      104.0,
+      216.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n60-k9_WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n60-k9",
+    "algorithm": "WOA",
+    "best_cost_without_vehicle_penalty": 2092.0,
+    "known_best": 1354.0,
+    "gap_percent": 54.50516986706056,
+    "route_count": 9,
+    "routes": [
+      [
+        4,
+        15,
+        28,
+        18,
+        38,
+        39,
+        26,
+        47,
+        34
+      ],
+      [
+        40,
+        8,
+        30,
+        16,
+        27,
+        35,
+        3,
+        20
+      ],
+      [
+        42,
+        12,
+        21,
+        17,
+        5,
+        22,
+        7
+      ],
+      [
+        53,
+        56,
+        36,
+        2,
+        11,
+        52,
+        33,
+        14
+      ],
+      [
+        59,
+        23,
+        43,
+        6,
+        13,
+        57,
+        51
+      ],
+      [
+        45,
+        31,
+        55,
+        37,
+        50,
+        32,
+        29,
+        41
+      ],
+      [
+        25,
+        49,
+        24,
+        19
+      ],
+      [
+        54,
+        46,
+        10,
+        44
+      ],
+      [
+        48,
+        58,
+        9,
+        60
+      ]
+    ],
+    "route_loads": [
+      87,
+      95,
+      85,
+      100,
+      98,
+      88,
+      91,
+      100,
+      85
+    ],
+    "route_distances": [
+      248.0,
+      287.0,
+      180.0,
+      314.0,
+      249.0,
+      250.0,
+      163.0,
+      259.0,
+      142.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n60-k9_SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n60-k9",
+    "algorithm": "SSA",
+    "best_cost_without_vehicle_penalty": 2457.0,
+    "known_best": 1354.0,
+    "gap_percent": 81.46233382570162,
+    "route_count": 9,
+    "routes": [
+      [
+        38,
+        27,
+        16,
+        56,
+        17,
+        26,
+        21,
+        4,
+        47,
+        30
+      ],
+      [
+        42,
+        34,
+        20,
+        51,
+        36,
+        59,
+        28,
+        40,
+        19,
+        15,
+        39
+      ],
+      [
+        2,
+        3,
+        11,
+        6,
+        37,
+        7,
+        53,
+        14
+      ],
+      [
+        48,
+        12,
+        41,
+        45,
+        35,
+        55,
+        33,
+        10
+      ],
+      [
+        32,
+        31,
+        43,
+        29,
+        50,
+        57,
+        13
+      ],
+      [
+        5,
+        22,
+        54,
+        25,
+        9
+      ],
+      [
+        49,
+        23,
+        24
+      ],
+      [
+        60,
+        18,
+        58,
+        8
+      ],
+      [
+        44,
+        52,
+        46
+      ]
+    ],
+    "route_loads": [
+      90,
+      98,
+      97,
+      97,
+      95,
+      84,
+      85,
+      90,
+      93
+    ],
+    "route_distances": [
+      335.0,
+      309.0,
+      310.0,
+      344.0,
+      385.0,
+      222.0,
+      170.0,
+      139.0,
+      243.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n60-k9_M-WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n60-k9",
+    "algorithm": "M-WOA",
+    "best_cost_without_vehicle_penalty": 1427.0,
+    "known_best": 1354.0,
+    "gap_percent": 5.391432791728213,
+    "route_count": 9,
+    "routes": [
+      [
+        19,
+        60,
+        9,
+        28,
+        18,
+        27,
+        16
+      ],
+      [
+        32,
+        54,
+        31,
+        50,
+        45,
+        29,
+        7
+      ],
+      [
+        25,
+        6,
+        55,
+        11,
+        23,
+        37,
+        2,
+        3
+      ],
+      [
+        26,
+        47,
+        41,
+        22,
+        5,
+        12,
+        4,
+        21,
+        17
+      ],
+      [
+        49,
+        33,
+        10,
+        52,
+        13,
+        51
+      ],
+      [
+        39,
+        8,
+        14,
+        30,
+        38,
+        58,
+        20
+      ],
+      [
+        15,
+        53,
+        34,
+        42
+      ],
+      [
+        48,
+        59,
+        57,
+        44,
+        40,
+        56,
+        36
+      ],
+      [
+        24,
+        43,
+        46,
+        35
+      ]
+    ],
+    "route_loads": [
+      98,
+      95,
+      97,
+      84,
+      100,
+      99,
+      58,
+      98,
+      100
+    ],
+    "route_distances": [
+      138.0,
+      177.0,
+      192.0,
+      103.0,
+      251.0,
+      140.0,
+      68.0,
+      177.0,
+      181.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n60-k9_M-SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n60-k9",
+    "algorithm": "M-SSA",
+    "best_cost_without_vehicle_penalty": 1425.0,
+    "known_best": 1354.0,
+    "gap_percent": 5.2437223042836045,
+    "route_count": 9,
+    "routes": [
+      [
+        52,
+        10,
+        33,
+        13,
+        57,
+        44,
+        51
+      ],
+      [
+        19,
+        20,
+        30,
+        58,
+        38,
+        18,
+        28,
+        27,
+        16
+      ],
+      [
+        8,
+        14,
+        9,
+        40,
+        56,
+        36
+      ],
+      [
+        43,
+        55,
+        11,
+        23,
+        45,
+        54
+      ],
+      [
+        3,
+        2,
+        37,
+        31,
+        50,
+        32,
+        29,
+        7
+      ],
+      [
+        35,
+        25,
+        59,
+        24,
+        48,
+        15
+      ],
+      [
+        53,
+        60,
+        39,
+        34,
+        42
+      ],
+      [
+        17,
+        21,
+        4,
+        5,
+        22,
+        12,
+        41,
+        47,
+        26
+      ],
+      [
+        46,
+        6,
+        49
+      ]
+    ],
+    "route_loads": [
+      97,
+      96,
+      97,
+      96,
+      83,
+      95,
+      82,
+      84,
+      99
+    ],
+    "route_distances": [
+      241.0,
+      153.0,
+      144.0,
+      218.0,
+      197.0,
+      112.0,
+      80.0,
+      103.0,
+      177.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n80-k10_WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n80-k10",
+    "algorithm": "WOA",
+    "best_cost_without_vehicle_penalty": 3130.0,
+    "known_best": 1763.0,
+    "gap_percent": 77.53828701077708,
+    "route_count": 10,
+    "routes": [
+      [
+        46,
+        77,
+        75,
+        28,
+        76,
+        16,
+        42,
+        36,
+        66,
+        70,
+        55,
+        52
+      ],
+      [
+        39,
+        68,
+        11,
+        35,
+        9,
+        78,
+        61,
+        18,
+        30
+      ],
+      [
+        13,
+        72,
+        53,
+        80,
+        3,
+        69
+      ],
+      [
+        22,
+        25,
+        12,
+        29,
+        31,
+        32,
+        20,
+        48,
+        54
+      ],
+      [
+        6,
+        65,
+        79,
+        19,
+        44,
+        27,
+        58,
+        57,
+        56
+      ],
+      [
+        24,
+        45,
+        17,
+        62,
+        71,
+        64,
+        47,
+        59
+      ],
+      [
+        4,
+        7,
+        60,
+        21,
+        49,
+        15
+      ],
+      [
+        74,
+        67,
+        41,
+        2,
+        63,
+        50
+      ],
+      [
+        37,
+        33,
+        34,
+        26,
+        10,
+        51,
+        5,
+        23,
+        73
+      ],
+      [
+        14,
+        43,
+        40,
+        38,
+        8
+      ]
+    ],
+    "route_loads": [
+      99,
+      93,
+      89,
+      92,
+      94,
+      96,
+      92,
+      91,
+      100,
+      96
+    ],
+    "route_distances": [
+      395.0,
+      338.0,
+      247.0,
+      310.0,
+      423.0,
+      410.0,
+      269.0,
+      199.0,
+      334.0,
+      205.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n80-k10_SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n80-k10",
+    "algorithm": "SSA",
+    "best_cost_without_vehicle_penalty": 3379.0,
+    "known_best": 1763.0,
+    "gap_percent": 91.66193987521271,
+    "route_count": 10,
+    "routes": [
+      [
+        74,
+        78,
+        52,
+        38,
+        69,
+        17,
+        73,
+        70,
+        20,
+        27,
+        21,
+        16,
+        57
+      ],
+      [
+        50,
+        34,
+        54,
+        68,
+        31,
+        9,
+        28,
+        35,
+        53,
+        15,
+        55,
+        48,
+        30,
+        25,
+        66,
+        36,
+        44,
+        49
+      ],
+      [
+        59,
+        77,
+        32,
+        37,
+        33,
+        5,
+        65,
+        79,
+        72,
+        26,
+        56,
+        71
+      ],
+      [
+        67,
+        39,
+        51,
+        24,
+        13,
+        43
+      ],
+      [
+        3,
+        63,
+        6,
+        12,
+        40,
+        14
+      ],
+      [
+        7,
+        42,
+        76,
+        62,
+        61,
+        75
+      ],
+      [
+        18,
+        60,
+        47,
+        58,
+        19
+      ],
+      [
+        11,
+        80,
+        29,
+        64,
+        4
+      ],
+      [
+        10,
+        23,
+        46,
+        2
+      ],
+      [
+        41,
+        22,
+        8,
+        45
+      ]
+    ],
+    "route_loads": [
+      97,
+      99,
+      100,
+      100,
+      98,
+      96,
+      100,
+      98,
+      96,
+      58
+    ],
+    "route_distances": [
+      480.0,
+      772.0,
+      548.0,
+      217.0,
+      260.0,
+      253.0,
+      283.0,
+      190.0,
+      245.0,
+      131.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n80-k10_M-WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n80-k10",
+    "algorithm": "M-WOA",
+    "best_cost_without_vehicle_penalty": 1888.0,
+    "known_best": 1763.0,
+    "gap_percent": 7.090187180941577,
+    "route_count": 10,
+    "routes": [
+      [
+        68,
+        67,
+        51,
+        46,
+        23,
+        5,
+        33
+      ],
+      [
+        2,
+        8,
+        63,
+        45,
+        13
+      ],
+      [
+        37,
+        71,
+        55,
+        10,
+        56,
+        57,
+        70,
+        66,
+        36,
+        27,
+        20,
+        48,
+        16,
+        34
+      ],
+      [
+        17,
+        44,
+        62,
+        58,
+        76,
+        21,
+        60,
+        28
+      ],
+      [
+        64,
+        3,
+        38,
+        9,
+        69,
+        79,
+        31,
+        6
+      ],
+      [
+        12,
+        19,
+        49,
+        15,
+        72,
+        11,
+        22,
+        41
+      ],
+      [
+        39,
+        59,
+        77,
+        73,
+        40,
+        61,
+        75
+      ],
+      [
+        54,
+        65,
+        42,
+        26,
+        47,
+        32,
+        18,
+        30,
+        14
+      ],
+      [
+        24,
+        7,
+        25,
+        35,
+        80,
+        29,
+        53
+      ],
+      [
+        4,
+        78,
+        52,
+        43,
+        74,
+        50
+      ]
+    ],
+    "route_loads": [
+      89,
+      90,
+      97,
+      99,
+      98,
+      96,
+      99,
+      99,
+      99,
+      76
+    ],
+    "route_distances": [
+      192.0,
+      128.0,
+      294.0,
+      225.0,
+      215.0,
+      194.0,
+      170.0,
+      181.0,
+      182.0,
+      107.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_A-n80-k10_M-SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "A-n80-k10",
+    "algorithm": "M-SSA",
+    "best_cost_without_vehicle_penalty": 2015.0,
+    "known_best": 1763.0,
+    "gap_percent": 14.293817356778218,
+    "route_count": 10,
+    "routes": [
+      [
+        52,
+        78,
+        65,
+        16,
+        48,
+        57,
+        70,
+        66,
+        36,
+        27,
+        20,
+        58,
+        44,
+        17,
+        79,
+        6
+      ],
+      [
+        24,
+        25,
+        9,
+        69,
+        62,
+        76,
+        21,
+        28,
+        30
+      ],
+      [
+        7,
+        31,
+        60,
+        26,
+        42,
+        47
+      ],
+      [
+        54,
+        4,
+        75,
+        45,
+        13,
+        63
+      ],
+      [
+        14,
+        18,
+        32,
+        34,
+        56,
+        10,
+        55,
+        5,
+        33,
+        59,
+        71
+      ],
+      [
+        64,
+        35,
+        53,
+        29,
+        49,
+        15,
+        72,
+        11,
+        22
+      ],
+      [
+        12,
+        3,
+        38,
+        61,
+        40,
+        68,
+        67
+      ],
+      [
+        43,
+        37,
+        74,
+        50,
+        41
+      ],
+      [
+        8,
+        19,
+        80,
+        2
+      ],
+      [
+        39,
+        51,
+        46,
+        23,
+        73,
+        77
+      ]
+    ],
+    "route_loads": [
+      94,
+      99,
+      90,
+      95,
+      100,
+      93,
+      100,
+      73,
+      100,
+      98
+    ],
+    "route_distances": [
+      300.0,
+      222.0,
+      204.0,
+      142.0,
+      272.0,
+      194.0,
+      212.0,
+      111.0,
+      188.0,
+      170.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_B-n50-k7_WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "B-n50-k7",
+    "algorithm": "WOA",
+    "best_cost_without_vehicle_penalty": 1405.0,
+    "known_best": 741.0,
+    "gap_percent": 89.60863697705803,
+    "route_count": 7,
+    "routes": [
+      [
+        9,
+        38,
+        5,
+        32,
+        11,
+        44,
+        28,
+        17,
+        31,
+        8
+      ],
+      [
+        42,
+        15,
+        19,
+        4,
+        23,
+        39,
+        13,
+        43,
+        25
+      ],
+      [
+        46,
+        27,
+        47,
+        36,
+        7,
+        48,
+        10
+      ],
+      [
+        35,
+        41,
+        3,
+        49,
+        18,
+        45,
+        20
+      ],
+      [
+        14,
+        12,
+        21,
+        22,
+        16,
+        50,
+        30,
+        24,
+        34
+      ],
+      [
+        40,
+        2,
+        6,
+        37
+      ],
+      [
+        29,
+        33,
+        26
+      ]
+    ],
+    "route_loads": [
+      100,
+      90,
+      88,
+      91,
+      93,
+      62,
+      85
+    ],
+    "route_distances": [
+      219.0,
+      211.0,
+      279.0,
+      105.0,
+      277.0,
+      183.0,
+      131.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_B-n50-k7_SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "B-n50-k7",
+    "algorithm": "SSA",
+    "best_cost_without_vehicle_penalty": 1815.0,
+    "known_best": 741.0,
+    "gap_percent": 144.93927125506073,
+    "route_count": 7,
+    "routes": [
+      [
+        11,
+        17,
+        43,
+        25,
+        8,
+        28,
+        48,
+        14
+      ],
+      [
+        41,
+        47,
+        21,
+        40,
+        39,
+        36,
+        3
+      ],
+      [
+        32,
+        13,
+        42,
+        23,
+        2,
+        12,
+        37,
+        9
+      ],
+      [
+        15,
+        19,
+        4,
+        44,
+        29,
+        34,
+        24
+      ],
+      [
+        10,
+        5,
+        6,
+        46,
+        49,
+        18,
+        31
+      ],
+      [
+        26,
+        38,
+        16,
+        50,
+        45,
+        20,
+        27,
+        30,
+        22
+      ],
+      [
+        33,
+        7,
+        35
+      ]
+    ],
+    "route_loads": [
+      95,
+      97,
+      100,
+      99,
+      86,
+      100,
+      32
+    ],
+    "route_distances": [
+      210.0,
+      366.0,
+      237.0,
+      236.0,
+      249.0,
+      423.0,
+      94.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_B-n50-k7_M-WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "B-n50-k7",
+    "algorithm": "M-WOA",
+    "best_cost_without_vehicle_penalty": 743.0,
+    "known_best": 741.0,
+    "gap_percent": 0.2699055330634278,
+    "route_count": 7,
+    "routes": [
+      [
+        26,
+        19,
+        15,
+        44,
+        25,
+        28,
+        17,
+        43,
+        11,
+        4
+      ],
+      [
+        16,
+        41,
+        3,
+        49,
+        18,
+        20,
+        45,
+        50
+      ],
+      [
+        35,
+        29,
+        33,
+        7
+      ],
+      [
+        46,
+        37,
+        6,
+        21,
+        9,
+        12,
+        38,
+        22
+      ],
+      [
+        40,
+        27,
+        14,
+        2,
+        5,
+        36
+      ],
+      [
+        24,
+        30,
+        47,
+        10,
+        39,
+        13,
+        23,
+        34,
+        48
+      ],
+      [
+        32,
+        42,
+        8,
+        31
+      ]
+    ],
+    "route_loads": [
+      98,
+      83,
+      95,
+      87,
+      98,
+      98,
+      50
+    ],
+    "route_distances": [
+      97.0,
+      103.0,
+      88.0,
+      151.0,
+      117.0,
+      101.0,
+      86.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_B-n50-k7_M-SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "B-n50-k7",
+    "algorithm": "M-SSA",
+    "best_cost_without_vehicle_penalty": 741.0,
+    "known_best": 741.0,
+    "gap_percent": 0.0,
+    "route_count": 7,
+    "routes": [
+      [
+        31,
+        26,
+        19,
+        15,
+        44,
+        25,
+        28,
+        17,
+        11,
+        43,
+        4
+      ],
+      [
+        38,
+        12,
+        21,
+        9,
+        6,
+        37,
+        46,
+        22
+      ],
+      [
+        40,
+        27,
+        14,
+        2,
+        5,
+        36
+      ],
+      [
+        24,
+        30,
+        47,
+        10,
+        39,
+        13,
+        23,
+        34
+      ],
+      [
+        8,
+        42,
+        32,
+        48
+      ],
+      [
+        16,
+        29,
+        33,
+        41
+      ],
+      [
+        7,
+        3,
+        49,
+        18,
+        20,
+        45,
+        50,
+        35
+      ]
+    ],
+    "route_loads": [
+      100,
+      87,
+      98,
+      94,
+      52,
+      93,
+      85
+    ],
+    "route_distances": [
+      99.0,
+      151.0,
+      117.0,
+      100.0,
+      85.0,
+      85.0,
+      104.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_P-n76-k4_WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "P-n76-k4",
+    "algorithm": "WOA",
+    "best_cost_without_vehicle_penalty": 1391.0,
+    "known_best": 593.0,
+    "gap_percent": 134.56998313659358,
+    "route_count": 4,
+    "routes": [
+      [
+        27,
+        30,
+        16,
+        66,
+        12,
+        36,
+        21,
+        71,
+        61,
+        72,
+        22,
+        37,
+        23,
+        63,
+        65,
+        42,
+        52,
+        18,
+        76,
+        28,
+        54
+      ],
+      [
+        33,
+        26,
+        56,
+        20,
+        9,
+        73,
+        74,
+        2,
+        17,
+        8,
+        68,
+        47,
+        46,
+        49,
+        14,
+        55,
+        58,
+        70,
+        75,
+        45,
+        19,
+        50,
+        24
+      ],
+      [
+        51,
+        41,
+        5,
+        53,
+        15,
+        60,
+        59,
+        4,
+        25,
+        64,
+        43,
+        44,
+        7,
+        31,
+        38,
+        48,
+        62
+      ],
+      [
+        35,
+        67,
+        39,
+        11,
+        32,
+        40,
+        10,
+        13,
+        6,
+        3,
+        29,
+        57,
+        34,
+        69
+      ]
+    ],
+    "route_loads": [
+      348,
+      338,
+      347,
+      331
+    ],
+    "route_distances": [
+      363.0,
+      451.0,
+      333.0,
+      244.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_P-n76-k4_SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "P-n76-k4",
+    "algorithm": "SSA",
+    "best_cost_without_vehicle_penalty": 1574.0,
+    "known_best": 593.0,
+    "gap_percent": 165.43001686340642,
+    "route_count": 4,
+    "routes": [
+      [
+        50,
+        74,
+        13,
+        36,
+        14,
+        58,
+        64,
+        40,
+        6,
+        7,
+        52,
+        53,
+        31,
+        33,
+        15,
+        28,
+        9,
+        66,
+        73,
+        76,
+        5
+      ],
+      [
+        11,
+        26,
+        75,
+        37,
+        24,
+        29,
+        17,
+        56,
+        19,
+        8,
+        30,
+        63,
+        69,
+        18,
+        45,
+        32,
+        4,
+        35,
+        16,
+        55,
+        20,
+        49
+      ],
+      [
+        34,
+        22,
+        38,
+        61,
+        21,
+        72,
+        71,
+        70,
+        48,
+        62,
+        23,
+        65,
+        43,
+        42,
+        44,
+        25,
+        41,
+        27,
+        3
+      ],
+      [
+        2,
+        57,
+        51,
+        10,
+        59,
+        39,
+        12,
+        67,
+        60,
+        54,
+        47,
+        46,
+        68
+      ]
+    ],
+    "route_loads": [
+      335,
+      343,
+      348,
+      338
+    ],
+    "route_distances": [
+      508.0,
+      582.0,
+      284.0,
+      200.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_P-n76-k4_M-WOA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "P-n76-k4",
+    "algorithm": "M-WOA",
+    "best_cost_without_vehicle_penalty": 608.0,
+    "known_best": 593.0,
+    "gap_percent": 2.5295109612141653,
+    "route_count": 4,
+    "routes": [
+      [
+        34,
+        64,
+        24,
+        57,
+        42,
+        44,
+        43,
+        65,
+        23,
+        62,
+        70,
+        37,
+        72,
+        61,
+        71,
+        21,
+        38,
+        16,
+        58,
+        14,
+        55,
+        20,
+        8
+      ],
+      [
+        68,
+        47,
+        9,
+        36,
+        54,
+        15,
+        60,
+        12,
+        67,
+        66,
+        39,
+        11,
+        59,
+        73,
+        13,
+        27
+      ],
+      [
+        5,
+        31,
+        3,
+        74,
+        2,
+        63,
+        29,
+        75,
+        22,
+        48,
+        6,
+        49,
+        30,
+        46,
+        28,
+        53,
+        35
+      ],
+      [
+        18,
+        41,
+        4,
+        45,
+        33,
+        10,
+        40,
+        32,
+        56,
+        26,
+        51,
+        19,
+        25,
+        50,
+        17,
+        52,
+        7,
+        69,
+        76
+      ]
+    ],
+    "route_loads": [
+      332,
+      349,
+      336,
+      347
+    ],
+    "route_distances": [
+      207.0,
+      121.0,
+      119.0,
+      161.0
+    ]
+  },
+  "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_P-n76-k4_M-SSA": {
+    "config_id": "FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate",
+    "dataset": "P-n76-k4",
+    "algorithm": "M-SSA",
+    "best_cost_without_vehicle_penalty": 634.0,
+    "known_best": 593.0,
+    "gap_percent": 6.913996627318719,
+    "route_count": 4,
+    "routes": [
+      [
+        35,
+        53,
+        55,
+        14,
+        58,
+        16,
+        6,
+        38,
+        21,
+        71,
+        61,
+        72,
+        37,
+        70,
+        62,
+        23,
+        65,
+        43,
+        44,
+        42,
+        57,
+        24,
+        34
+      ],
+      [
+        18,
+        41,
+        13,
+        59,
+        73,
+        40,
+        10,
+        33,
+        45,
+        4,
+        17,
+        64,
+        2,
+        74,
+        63,
+        3,
+        69,
+        76
+      ],
+      [
+        27,
+        36,
+        15,
+        60,
+        20,
+        9,
+        47,
+        28,
+        46,
+        30,
+        49,
+        48,
+        22,
+        29,
+        75,
+        31,
+        5
+      ],
+      [
+        7,
+        52,
+        50,
+        25,
+        19,
+        51,
+        26,
+        56,
+        32,
+        11,
+        39,
+        66,
+        67,
+        12,
+        54,
+        8,
+        68
+      ]
+    ],
+    "route_loads": [
+      350,
+      320,
+      350,
+      344
+    ],
+    "route_distances": [
+      205.0,
+      114.0,
+      148.0,
+      167.0
+    ]
+  }
+}
