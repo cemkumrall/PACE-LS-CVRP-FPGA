@@ -1,0 +1,314 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Sun Aug 16 00:05:45 2026
+| Host         : DESKTOP-SOJQCUU running 64-bit major release  (build 9200)
+| Command      : report_drc -file C:/FPGA_ZedBoard/P76_O6R8_post_impl_drc.rpt
+| Design       : p76_o6r8_pl_top
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: impl_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 55
++--------+----------+------------------------+------------+
+| Rule   | Severity | Description            | Violations |
++--------+----------+------------------------+------------+
+| DPIP-1 | Warning  | Input pipelining       | 12         |
+| DPOP-1 | Warning  | PREG Output pipelining | 30         |
+| DPOP-2 | Warning  | MREG Output pipelining | 12         |
+| ZPS7-1 | Warning  | PS7 block required     | 1          |
++--------+----------+------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_12_fu_4751_p2 input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_12_fu_4751_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_16_fu_5681_p2 input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_16_fu_5681_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_8_fu_3425_p2 input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_8_fu_3425_p2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U49/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U49/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U50/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U50/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U51/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U51/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U52/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U52/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U53/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U53/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U55/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U55/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U57/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U57/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U59/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U59/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U60/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p input u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U60/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_26_fu_8144_p2 output u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_26_fu_8144_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_28_fu_8162_p2 output u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_28_fu_8162_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_38_fu_8252_p2 output u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_38_fu_8252_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#4 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_40_fu_8270_p2 output u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_40_fu_8270_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#5 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_50_fu_10090_p2 output u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_50_fu_10090_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#6 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_52_fu_10108_p2 output u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_52_fu_10108_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#7 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_62_fu_11292_p2 output u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_62_fu_11292_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#8 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_64_fu_11310_p2 output u_dual_ls_kernel/inst/relocate_branch_U0/grp_relocate_branch_Pipeline_BATCH_REL_GROUP_REL_fu_163/add_ln69_64_fu_11310_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#9 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_12_fu_4751_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_12_fu_4751_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#10 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_13_fu_4757_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_13_fu_4757_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#11 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_16_fu_5681_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_16_fu_5681_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#12 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_17_fu_5687_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_17_fu_5687_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#13 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_1_fu_3139_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_1_fu_3139_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#14 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_20_fu_6605_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_20_fu_6605_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#15 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_21_fu_6610_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_21_fu_6610_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#16 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_4_fu_3183_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_4_fu_3183_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#17 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_5_fu_3188_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_5_fu_3188_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#18 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_8_fu_3425_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_8_fu_3425_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#19 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_9_fu_3431_p2 output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_9_fu_3431_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#20 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U50/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U50/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#21 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U51/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U51/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#22 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U52/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U52/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#23 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U53/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U53/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#24 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U54/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U54/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#25 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U55/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U55/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#26 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U56/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U56/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#27 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U57/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U57/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#28 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U58/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U58/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#29 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U59/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U59/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#30 Warning
+PREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U60/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p output u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/mac_muladd_13s_7ns_13ns_13_4_1_U60/dual_ls_kernel_mac_muladd_13s_7ns_13ns_13_4_1_DSP48_1_U/p/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_12_fu_4751_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_12_fu_4751_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_13_fu_4757_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_13_fu_4757_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_16_fu_5681_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_16_fu_5681_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_17_fu_5687_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_17_fu_5687_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_1_fu_3139_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_1_fu_3139_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#6 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_20_fu_6605_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_20_fu_6605_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#7 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_21_fu_6610_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_21_fu_6610_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#8 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_4_fu_3183_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_4_fu_3183_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#9 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_5_fu_3188_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_5_fu_3188_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#10 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_8_fu_3425_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_8_fu_3425_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#11 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_9_fu_3431_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_9_fu_3431_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#12 Warning
+MREG Output pipelining  
+DSP u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_fu_3134_p2 multiplier stage u_dual_ls_kernel/inst/twoopt_branch_U0/grp_twoopt_branch_Pipeline_BATCH_TWO_GROUP_TWO_fu_142/add_ln69_fu_3134_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+
