@@ -1,0 +1,28 @@
+P76 Dual Local-Search HLS Workload Summary V2
+========================================================================
+Project root       : C:\Users\Cem Deniz KUMRAL\Desktop\Aktif Çalışmalar\WOA & SSA on FPGA
+Best routes JSON   : C:\Users\Cem Deniz KUMRAL\Desktop\Aktif Çalışmalar\WOA & SSA on FPGA\FINAL_RESULTS_CPU\04_best_routes\best_routes_final.json
+Dataset            : P-n76-k4
+Selected algorithm : M-WOA
+Selected key       : FINAL_P3D_pop40_iter200_2opt_qualitybalanced_relocate_P-n76-k4_M-WOA
+Batch size         : 512
+Capacity           : 350
+Relocate cap/item  : 8000
+Compact node count : 76
+Route count        : 4
+Route lengths      : 23, 16, 17, 19
+Route loads        : 332, 349, 336, 347
+
+2-opt candidates/item     : 680
+2-opt candidates/total    : 348160
+2-opt best_delta          : 0
+2-opt checksum_delta/item : 24619
+2-opt checksum_index/item : 1589716015
+
+Relocate candidates/item     : 958
+Relocate candidates/total    : 490496
+Relocate best_delta          : 0
+Relocate checksum_delta/item : 56968
+Relocate checksum_index/item : 25936411191
+
+This V2 header stores only per-item candidate lists, not full batch candidate arrays.
