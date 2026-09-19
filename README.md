@@ -1,12 +1,12 @@
 # PACE-LS-CVRP-FPGA
 
-## Profiling-Guided CPU–FPGA Acceleration of CVRP Local Search
+## PACE-LS: A Profiling-Guided Asymmetric Dual-Branch FPGA Architecture for Heterogeneous CVRP Local Search
 
 This repository contains the source code, experimental outputs, FPGA design artifacts, implementation reports, and hardware-validation materials associated with the study:
 
-**PACE-LS: A profiling-guided CPU–FPGA architecture for concurrent execution of CVRP local search**
+**PACE-LS: A Profiling-Guided Asymmetric Dual-Branch FPGA Architecture for Heterogeneous CVRP Local Search**
 
-PACE-LS stands for **Profiling-guided Architecture for Concurrent Execution of Local Search**.
+PACE-LS stands for **Profiling-Guided Asymmetric Dual-Branch FPGA Architecture for Heterogeneous CVRP Local Search**.
 
 The study investigates a profiling-guided CPU–FPGA co-design methodology for the Capacitated Vehicle Routing Problem (CVRP). Rather than selecting hardware targets a priori, computationally dominant stages are identified through measured CPU runtime profiling. The resulting bottlenecks, bounded **2-opt** and **inter-route relocate** local-search kernels, are then mapped to two concurrently executing FPGA branches.
 
